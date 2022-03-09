@@ -12,18 +12,17 @@ a {
   }
   
   #content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+    padding-bottom: 2.5rem;    /*Footer height*/
   }
   
   #footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 2.5rem;            /* Footer height */
   }
 
 #navbar,#footer {
-    background-color: #000000;
     color: white;
     opacity: 0.8;
 }
@@ -31,8 +30,10 @@ a {
 #navbar {
     display: flex;
     align-items: center;
-
     gap: 8px;
+
+
+    background-color: #000000;
     height: 30px;
 }
 
@@ -57,7 +58,9 @@ a {
 
 .notes {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 8px;
 
     text-align: center;
 
@@ -67,8 +70,17 @@ a {
     margin: 15px;
 }
 
-.ps23v1 {
-    border: solid;
-    border-color: lightgoldenrodyellow;
+.notespace {
+    /* border: solid;
+    border-color: lightgoldenrodyellow; */
     margin: 0px;
 }
+
+hr {
+     border: 0; 
+     clear:both; 
+     display:block; 
+     width: 96%; 
+     background-color:#000000; 
+     height: 1px;
+     }
