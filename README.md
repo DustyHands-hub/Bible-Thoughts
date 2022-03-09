@@ -1,1 +1,1 @@
-# Bible-Thoughts
+# Notes on various Bible passages
