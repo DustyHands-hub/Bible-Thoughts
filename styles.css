@@ -43,8 +43,13 @@ a {
     font-size: large;
 }
 
+h2 {
+    font-style: normal;
+}
+
 .passQuote {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
 
     font-style: italic;
@@ -56,7 +61,7 @@ a {
     margin: 15px;
 }
 
-.notes {
+.notes,.crossref {
     display: flex;
     flex-direction: column;
     justify-content: center;
